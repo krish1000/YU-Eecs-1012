@@ -1,0 +1,10 @@
+/* Task 3 - Practice Lab Test  */
+/* Write your CSS code here */
+html{font-family: sans-serif;}
+
+#boxofdoom {width: 40%;
+  margin-left: 10%;
+  border: 2px black solid;
+  background-color: silver;
+  padding: 5px;
+  }

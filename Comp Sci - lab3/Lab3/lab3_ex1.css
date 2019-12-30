@@ -1,0 +1,30 @@
+/* add your css code for lab3_ex1.css here */
+
+#login {background-color: black; color: white; padding: 5px;}
+
+#acc {text-align: right; font-family: monospace; font-size: 10pt;}
+
+#centerr {display: block;  /*Not sure if this is correct*/
+    margin:auto;}
+
+#centerimg {text-align: center;}
+
+#leftalignwordz{margin: 2px;
+  text-align: left;
+  width: 240px;}
+
+#divcenter {margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 250px;
+    text-align: center;
+}
+
+input[type=submit]{background-color: black;
+    color: white;
+  padding: 5px;
+  width: 240px;}
+
+input[type=email]{width: 240px;}
+input[type=text]{width: 240px;}
+input[type=password]{width: 240px;}

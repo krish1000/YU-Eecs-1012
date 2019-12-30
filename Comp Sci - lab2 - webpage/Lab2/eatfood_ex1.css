@@ -1,0 +1,21 @@
+/*Code edited by: Krishaanth Manoharan*/
+body{
+  border: 4px solid; border-color: green;}
+
+#eatingjournal{
+  border: 4px solid; border-color: red;}
+
+#thingstoeat{
+  border: 4px solid; border-color: orange;}
+
+.blueborder{
+  border: 4px solid; border-color: blue;}
+
+.purpleborder{
+  border: 4px solid; border-color: purple;}
+
+p{
+  border: 2px solid; border-color: black;}
+
+#yellowborder{
+  border: 4px solid; border-color: yellow;}

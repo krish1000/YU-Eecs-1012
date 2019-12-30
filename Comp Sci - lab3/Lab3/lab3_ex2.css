@@ -1,0 +1,33 @@
+/* add your CSS code for lab3_ex2.css here */
+
+html{ background-image: url(background.png);
+      font-family: sans-serif;}
+
+#wholepagediv {width: 400px;
+      margin: auto;
+      background-color: #EEEEEE;
+      border: solid #999999 5px;
+      padding: 5px;}
+
+#blkborder {border: solid black 3px;}
+
+#cntralign {text-align: center;}
+
+.radiostuff {color: white; border: solid black 1px;}
+
+#whtebkgrnd {background-color: white; color: black;}
+#redbkgrnd {background-color: red;}
+#bluebkgrnd {background-color: blue;}
+#greenbkgrnd {background-color: green;}
+
+.emstuff {width: 4em;}
+
+.emstuff2 {width: 2em; font-family: monospace;}
+
+input[type=submit]{background-color: black;
+  color: white;
+  padding: 5px;}
+
+#floatR{float: right;}
+
+#floatL{float: left;}

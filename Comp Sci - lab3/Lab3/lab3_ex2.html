@@ -1,0 +1,88 @@
+  <!-- Lab3 Task 2 - EECS1012 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Nerd Shirt </title>
+    <link href="lab3_ex2.css" type="text/css" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+<body>
+  <!-- See PDF for details -->
+<form action="https://www.eecs.yorku.ca/~mbrown/EECS1012/buyShirt.php" method="get">
+<div id="wholepagediv">
+
+<fieldset>
+  <legend> Select Shirt </legend>
+<div id="cntralign">
+
+<p>
+    <img id="blkborder" src="tshirt.png" alt="T-shirt picture" height="250">
+</p>
+
+<p>
+<label> <input type="radio" name="color" value="White"> <span class="radiostuff" id="whtebkgrnd"> White </span> </label>
+<label> <input type="radio" name="color" value="Red"> <span class="radiostuff" id="redbkgrnd"> Red </span> </label>
+<label> <input type="radio" name="color" value="Blue"> <span class="radiostuff" id="bluebkgrnd"> Blue </span> </label>
+<label> <input type="radio" name="color" value="Green"> <span class="radiostuff" id="greenbkgrnd"> Green </span> </label>
+</p>
+
+<p>
+Size:
+<select name="size">
+
+  <option>Small </option>
+  <option>Medium </option>
+  <option>Large </option>
+  <option>X-Large </option>
+</select>
+</p>
+
+</div>
+</fieldset>
+<!-- ***************************************************************************************************** -->
+<fieldset>
+  <legend> Payment </legend>
+
+  <p>
+  <label> <input type="radio" name="cardType" value="vs"> Visa</label>
+  <label> <input type="radio" name="cardType" value="mc"> MasterCard</label>
+  <label> <input type="radio" name="cardType" value="ae"> American Express</label>
+  </p>
+  <hr>
+
+  <p>
+  Card number <input class="emstuff" type="text" name="cc1" maxlength="4">
+  -<input class="emstuff" type="text" name="cc2" maxlength="4">
+  -<input class="emstuff" type="text" name="cc3" maxlength="4">
+  -<input class="emstuff" type="text" name="cc4" maxlength="4">
+  </p>
+  <hr>
+
+  <p>
+  Expiration: Month(MM) <input class="emstuff2" type="text" name="month" maxlength="2">
+  Year (YY) <input class="emstuff2" type="text" name="year" maxlength="2">
+  </p>
+  <hr>
+
+  <div id="floatL">
+  <p>
+  Place Order <input type="submit" value="Submit">
+  </p>
+  </div>
+  <div id="floatR">
+  <p>
+  Reset fields <input type="reset">
+  </p>
+</div>
+
+</fieldset>
+
+
+
+
+</div>
+
+
+</form>
+</body>
+</html>

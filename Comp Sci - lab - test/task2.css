@@ -1,0 +1,22 @@
+/* Task2.css (Practice Lab Test) -- Write your CSS code here */
+html{font-family: monospace;}
+
+#boxting {border: 5px orange solid;
+      margin: auto;
+      background-color: rgb(244,235,66);
+      width: 80%;}
+
+h1 , h2 {text-align: center;}
+
+.itsyellowtime {color: yellow;
+      font-size: 1.25em;
+      font-family: sans-serif;}
+
+.demboxes {border: 5px orange solid;
+    background-color: rgb(000,200,255);
+    padding: 10px;
+    margin: 10px;
+  overflow: hidden;} /* ************************************************************************************/
+
+img {float: right;  /* ************************************************************************************/
+    }
